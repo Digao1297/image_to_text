@@ -1,5 +1,5 @@
 import * as types from "./mutations.types";
-import { http } from "../../services";
+import { http, urls } from "../../services";
 import FormData from "form-data";
 
 export const actionSetText = async ({ commit }, payload) => {
@@ -11,7 +11,7 @@ export const actionSendImage = async ({ dispatch }, payload) => {
   data.append("name", "image");
   data.append("file", payload);
   http
-    .POST("", data)
+    .POST(urls.upload, data)
     .then((response) => {
       console.log(response.data);
       dispatch("actionSetText", response.data);

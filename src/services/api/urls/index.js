@@ -1,1 +1,3 @@
-export const urls = {};
+export const urls = {
+  upload: "upload",
+};
