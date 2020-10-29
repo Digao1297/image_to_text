@@ -87,6 +87,18 @@ export default {
       document.body.onfocus = null;
     },
   },
+  created() {
+    this
+      .actionSetText(`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id ipsum erat. Curabitur auctor et urna eu bibendum. Aenean vel nisl velit. Mauris turpis dolor, tempor quis tempus non, aliquam at ligula. Fusce tristique nisi urna, et volutpat nisl malesuada vel. Nunc porttitor a orci vitae porttitor. Vivamus pretium accumsan orci, sed pulvinar arcu euismod ut. Vestibulum sagittis a velit sed pretium. Maecenas et diam quis mauris luctus consequat id eget augue. Vivamus eu dui luctus, euismod ligula et, malesuada mauris. Etiam eu finibus velit, at pulvinar leo. Sed placerat interdum est, in dictum mi efficitur vitae. Fusce condimentum odio mauris, sit amet vulputate lorem suscipit id. Etiam congue bibendum ornare. Nunc et nunc eu dui sodales dictum. Donec interdum ipsum neque, sit amet blandit urna euismod nec.
+
+Vivamus molestie luctus erat id convallis. Curabitur est dui, congue nec metus in, imperdiet dignissim nisi. In ullamcorper, massa et eleifend convallis, orci leo tristique massa, vitae eleifend eros nisl vel ex. Nunc euismod maximus elementum. Donec nec enim gravida, ultrices augue sodales, fringilla magna. Proin fringilla ante vel vehicula dapibus. Aenean mollis iaculis turpis et placerat. Cras vitae pharetra ante. Praesent commodo risus ante, sed vehicula libero dictum vitae. Integer dapibus massa porta, semper lacus at, imperdiet ipsum. Ut dapibus posuere fermentum. Donec vehicula cursus tortor, ac ultricies lectus lacinia eu. Donec dapibus tincidunt sapien, id vestibulum dui accumsan id. Pellentesque non maximus erat, sed efficitur libero.
+
+Ut mollis justo non purus faucibus, ac ultricies elit feugiat. Nulla non nulla vitae tellus sagittis tristique at in est. Praesent dapibus nunc id mi fringilla sodales. Fusce placerat tortor justo, in commodo leo tempus quis. Sed at risus dictum, tempor justo in, ultricies mauris. Suspendisse id felis tristique, mollis nunc id, molestie quam. Integer vel pellentesque purus. Phasellus ac diam diam. Curabitur consectetur, lectus quis finibus porta, urna risus vulputate lorem, sed tempus quam nisl sed felis.
+
+Aliquam ultricies diam ut odio lacinia mollis. Aliquam ut risus in libero molestie ultricies a id dolor. Nam nunc quam, accumsan quis nunc non, tincidunt ullamcorper dui. Donec in diam quis risus lobortis tincidunt. Pellentesque auctor dolor est, eu laoreet mi consequat quis. Donec varius nisi ac lacinia feugiat. Pellentesque ipsum felis, fringilla ut neque vel, malesuada ornare nulla. Duis et scelerisque diam. Nullam dapibus varius eros id ullamcorper. Aenean vitae sollicitudin ante. Nullam dapibus dolor ipsum, tincidunt interdum ante sollicitudin ut. Donec tincidunt dapibus enim.
+
+Nam quis magna blandit, suscipit ex sed, facilisis ex. Nullam imperdiet risus eu arcu vulputate, laoreet porttitor odio dignissim. Duis ac urna non est ullamcorper scelerisque sit amet at diam. Quisque rhoncus, velit in tristique suscipit, ipsum turpis congue massa, eu ullamcorper nisl enim a eros. Ut in elementum ligula. Mauris efficitur vestibulum nibh sed luctus. Etiam molestie tempor placerat.`);
+  },
 };
 </script>
 
